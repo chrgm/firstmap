@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
+ <editorsettings>
+  <export target="map.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="Pipoya" tilewidth="32" tileheight="32" tilecount="1064" columns="8">
   <image source="BaseChip_pipo.png" width="256" height="4256"/>
  </tileset>
@@ -59,7 +62,7 @@
 </data>
   </layer>
  </group>
- <group id="2" name="Design" visible="0">
+ <group id="2" name="Design">
   <layer id="1" name="Floor" width="50" height="50">
    <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
